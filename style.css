@@ -1,0 +1,124 @@
+body,
+ul,
+li,
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+    font-family: ariel;
+    color: #1c1e21;
+}
+
+header {
+    background-color: red;
+    padding: 1px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+header h1 {
+    color: white;
+    border: 8px solid white;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 36px;
+}
+header h2{
+    top: 40px;
+}
+
+#frontImage img {
+    max-width: 100%;
+}
+
+.form {
+    background-color: aliceblue;
+    color: red;
+    position: absolute;
+    left: 20px;
+    top: 150px;
+    display: inline-block;
+    border-width: 100%;
+    border-radius: 5px;
+    width: 620px;
+    padding: 10px 5px 20px 5px;
+    height: 60%;
+    bottom: 75px;
+    right: 25px;
+    text-align: center;
+    box-shadow: 5px 5px 10px 3px gray, 3px 3px 80px 0 gray;
+
+
+}
+/* .form:hover{
+    box-shadow: 0px 0px 20px 2px gray;
+} */
+
+ .form input[type="text"], input[type="password"],input[type="email"] {
+    /* display: block; */
+    background-color: #fff;
+    font-size: 15px;
+    border: 5px solid white;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    width:40%;
+    padding: 5px 15px;
+    font-size: large;
+    /* white-space: nowrap; */
+}
+
+.form label {
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 4px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+
+
+}
+  #submit{
+    width: 300%;
+    text-align: center;
+    background-color:#1877f2;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid;
+    padding: 5px;
+}
+
+ #links{
+    left: 120px;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+}
+ #createAnAccount{
+    width: 100%;
+    text-align: center;
+    background-color:#1877f2;
+    color: white;
+    left: 120px;
+    border-radius: 10px;
+    border: 5px solid;
+    padding: 5px;
+}
+
+
+
+#join{
+    left: 200px;
+}
+
+
+
+
+
+

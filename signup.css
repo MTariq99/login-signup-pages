@@ -1,0 +1,87 @@
+body,
+ul,
+li,
+h1,
+h2 {
+    margin: 0;
+    padding: 0;
+    font-family: ariel;
+    color: #1c1e21;
+
+
+}
+
+header {
+    background-color: rgb(212, 155, 155);
+    color: rgb(164, 6, 6);
+    text-align: center;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+
+}
+div .Image{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.Image img {
+    max-width: 200%;
+
+}
+
+
+ .forms {
+    background-color: aliceblue;
+    color: red;
+    position: absolute;
+    left: 250px;
+    top: 90px;
+    display: inline-block;
+    border-width: 100%;
+    width: 70%;
+    height: 85%;
+    bottom: 25px;
+    right: 25px;
+    text-align: center;
+    box-shadow: 5px 5px 10px 3px gray, 3px 3px 80px 0 gray;
+
+
+
+}
+
+.forms input[type="text"], input[type="firstname"], input[type="lastname"], input[type="username"], input[type="email"], input[type=""], input[type="password"] {
+      /* display: block; */
+      background-color: #fff;
+      font-size: 15px;
+      border: 5px solid white;
+      text-align: center;
+      margin: auto;
+      border-radius: 10px;
+      width:20%;
+      padding: 5px 15px;
+      font-size: large;
+      /* white-space: nowrap; */
+
+
+
+}
+.Image .forms label{
+    width: 100px;
+    display: inline-block;
+    text-align: center;
+    margin: 4px;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+
+}
+label #submit{
+    width: 300%;
+    text-align: center;
+    background-color:#1877f2;
+    color: white;
+    border-radius: 10px;
+    border: 5px solid;
+    padding: 5px;
+}
